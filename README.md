@@ -1,16 +1,105 @@
-# React + Vite
+# Portfolio Personal - Mateo Borrero Kinen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio web personal desarrollado con React + Vite para presentar mi perfil profesional, formación, experiencia, tecnologías y proyectos destacados.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este portfolio tiene como objetivo mostrar mi perfil como desarrollador web trainee / junior, incluyendo mi formación académica, experiencia relacionada al desarrollo web, habilidades técnicas y proyectos publicados.
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Git
+- GitHub
+- Vercel
 
-## Expanding the ESLint configuration
+## Secciones del portfolio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Inicio
+- Sobre mí
+- Experiencia y formación
+- Proyectos
+- Tecnologías y herramientas
+- Idiomas
+- Contacto
+
+## Proyectos destacados
+
+### Borkin Dashboard
+
+Sistema web fullstack para gestión de productos e inventario.
+
+Incluye:
+
+- Login y registro de usuarios
+- Roles de usuario
+- CRUD completo de productos
+- Rutas protegidas
+- Búsqueda de productos
+- Control de stock bajo
+- Cálculo del valor total del inventario
+- Frontend desplegado en Vercel
+- Backend desplegado en Render
+- Base de datos en Neon
+
+Demo: https://borkin-dashboard.vercel.app  
+Repositorio: https://github.com/MateoBorrero12/borkin-dashboard
+
+### Borkin Landing
+
+Landing page profesional responsive para presentar servicios digitales.
+
+Incluye:
+
+- Hero principal
+- Secciones informativas
+- Llamados a la acción
+- Formulario visual
+- Diseño responsive
+- Deploy en Vercel
+
+Demo: https://landing-borkin.vercel.app  
+Repositorio: https://github.com/MateoBorrero12/landing-Borkin
+
+### Borkin Turnos
+
+Aplicación fullstack para la gestión de turnos y reservas online.
+
+Incluye:
+
+- Registro e inicio de sesión
+- Autenticación con JWT
+- Roles de cliente y administrador
+- Panel cliente para reservar y consultar turnos
+- Panel administrador para gestionar servicios y reservas
+- Activación y desactivación de servicios
+- Filtros de turnos por fecha y estado
+- Validación de horarios disponibles
+- Bloqueo de reservas duplicadas
+- Base de datos PostgreSQL
+- Deploy con Vercel, Render y Neon
+
+Demo: https://borkin-turnos.vercel.app  
+Repositorio: https://github.com/MateoBorrero12/borkin-turnos
+
+## Formación
+
+- Licenciatura en Sistemas - Universidad Nacional de Entre Ríos, UNER. En curso.
+- Tecnicatura Universitaria en Programación - Universidad Tecnológica Nacional, UTN Concordia. 2023 - 2025.
+
+## Contacto
+
+Email: mateoborrero.dev@gmail.com  
+GitHub: https://github.com/MateoBorrero12
+
+## Instalación y ejecución local
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/MateoBorrero12/portfolio-mateo.git
+```

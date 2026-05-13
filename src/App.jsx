@@ -72,12 +72,12 @@ function App() {
 
           <div className="stats-grid">
             <div>
-              <strong>2+</strong>
+              <strong>3+</strong>
               <span>Proyectos publicados</span>
             </div>
 
             <div>
-              <strong>1</strong>
+              <strong>2</strong>
               <span>Proyecto fullstack</span>
             </div>
 
@@ -243,6 +243,55 @@ function App() {
                 </a>
               </div>
             </article>
+
+            <article className="project-card">
+              <div>
+                <div className="project-status">Deploy activo</div>
+
+                <p className="project-type">Fullstack app</p>
+
+                <h3>Borkin Turnos</h3>
+
+                <p>
+                  Aplicación fullstack para gestión de turnos y reservas online. Incluye
+                  registro, login, roles de cliente y administrador, gestión de servicios,
+                  creación de reservas, filtros por fecha y estado, validación de horarios
+                  y bloqueo de turnos duplicados.
+                </p>
+              </div>
+
+              <div className="tech-list">
+                <span>React</span>
+                <span>Vite</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>pg</span>
+                <span>JWT</span>
+                <span>bcrypt</span>
+                <span>Render</span>
+                <span>Neon</span>
+                <span>Vercel</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://borkin-turnos.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver demo
+                </a>
+
+                <a
+                  href="https://github.com/MateoBorrero12/borkin-turnos"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </article>
+            
           </div>
         </section>
 
