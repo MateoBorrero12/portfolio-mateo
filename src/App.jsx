@@ -28,11 +28,9 @@ function App() {
             </h1>
 
             <p className="hero-description">
-              Soy graduado de la Tecnicatura Universitaria en Programación en
-              UTN Concordia y actualmente estudio Licenciatura en Sistemas en
-              UNER. Me especializo en desarrollo web, creando proyectos reales
-              con frontend, backend, bases de datos, autenticación y despliegue
-              online.
+              Desarrollador web trainee enfocado en crear aplicaciones modernas,
+              funcionales y orientadas a resolver necesidades reales. Trabajo con frontend,
+              backend, bases de datos, autenticación y despliegue online.
             </p>
 
             <div className="hero-info">
@@ -60,14 +58,12 @@ function App() {
           </div>
 
           <p className="about-text">
-            Soy Mateo Borrero Kinen, graduado de la Tecnicatura Universitaria
-            en Programación en UTN Concordia y estudiante de la Licenciatura en
-            Sistemas en UNER. Me estoy formando como desarrollador web, con
-            conocimientos en frontend, backend, bases de datos y desarrollo de
-            APIs. Me caracterizo por la responsabilidad, la curiosidad y la
-            facilidad para aprender nuevas tecnologías. Busco seguir ganando
-            experiencia profesional desarrollando proyectos reales, funcionales
-            y orientados a resolver necesidades concretas.
+            Soy Mateo Borrero Kinen, graduado de la Tecnicatura Universitaria en
+            Programación en UTN Concordia y actualmente estudiante de la Licenciatura en
+            Sistemas en UNER. Me interesa desarrollar soluciones web claras, funcionales
+            y bien organizadas, combinando lógica de negocio, diseño responsive y buenas
+            prácticas de desarrollo. Me considero una persona responsable, curiosa y con
+            facilidad para aprender nuevas tecnologías.
           </p>
 
           <div className="stats-grid">
@@ -78,7 +74,7 @@ function App() {
 
             <div>
               <strong>2</strong>
-              <span>Proyecto fullstack</span>
+              <span>Proyectos fullstack</span>
             </div>
 
             <div>
@@ -308,15 +304,15 @@ function App() {
             <span>React</span>
             <span>Vite</span>
             <span>Node.js</span>
-            <span>Express</span>
+            <span>Express.js</span>
             <span>PostgreSQL</span>
             <span>MySQL</span>
             <span>PHP</span>
             <span>Python</span>
             <span>Laravel básico</span>
-            <span>Sequelize</span>
+            <span>Sequelize ORM</span>
             <span>APIs REST</span>
-            <span>JWT</span>
+            <span>JWT Auth</span>
             <span>bcrypt</span>
             <span>Postman</span>
             <span>Swagger</span>
@@ -326,6 +322,9 @@ function App() {
             <span>Render</span>
             <span>Neon</span>
             <span>Jira</span>
+            <span>pg / node-postgres</span>
+            <span>Dotenv</span>
+            <span>Axios</span>
           </div>
         </section>
 
@@ -364,7 +363,7 @@ function App() {
 
           <div className="contact-buttons">
             <a
-              href="https://wa.me/543454166622"
+              href="https://wa.me/543454244078"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
