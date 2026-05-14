@@ -28,9 +28,7 @@ function App() {
             </h1>
 
             <p className="hero-description">
-              Desarrollador web trainee enfocado en crear aplicaciones modernas,
-              funcionales y orientadas a resolver necesidades reales. Trabajo con frontend,
-              backend, bases de datos, autenticación y despliegue online.
+              Creo soluciones digitales claras, funcionales y orientadas a necesidades reales, integrando frontend, backend, bases de datos y despliegue online.
             </p>
 
             <div className="hero-info">
@@ -58,12 +56,7 @@ function App() {
           </div>
 
           <p className="about-text">
-            Soy Mateo Borrero Kinen, graduado de la Tecnicatura Universitaria en
-            Programación en UTN Concordia y actualmente estudiante de la Licenciatura en
-            Sistemas en UNER. Me interesa desarrollar soluciones web claras, funcionales
-            y bien organizadas, combinando lógica de negocio, diseño responsive y buenas
-            prácticas de desarrollo. Me considero una persona responsable, curiosa y con
-            facilidad para aprender nuevas tecnologías.
+            Soy Mateo Borrero Kinen, desarrollador web trainee con formación en programación y experiencia creando proyectos propios publicados. Me caracterizo por la responsabilidad, la curiosidad y la facilidad para aprender nuevas herramientas. Busco seguir creciendo profesionalmente participando en proyectos reales y aplicando buenas prácticas de desarrollo.
           </p>
 
           <div className="stats-grid">
@@ -78,8 +71,8 @@ function App() {
             </div>
 
             <div>
-              <strong>UNER</strong>
-              <span>Lic. en Sistemas en curso</span>
+              <strong>Deploy online</strong>
+              <span>Vercel, Render y Neon</span>
             </div>
           </div>
         </section>
@@ -381,7 +374,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/MateoBorrero12"
+              href="https://github.com/MateoBorrero-Dev"
               target="_blank"
               rel="noreferrer"
               className="btn btn-secondary"
