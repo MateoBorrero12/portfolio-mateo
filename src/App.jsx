@@ -1,3 +1,26 @@
+const skillCategories = [
+  {
+    title: "Frontend",
+    description: "Interfaces modernas, responsivas y orientadas a la experiencia del usuario.",
+    items: ["HTML", "CSS", "JavaScript", "React", "Vite"],
+  },
+  {
+    title: "Backend",
+    description: "APIs, autenticación y lógica del lado del servidor.",
+    items: ["Node.js", "Express.js", "APIs REST", "JWT Auth"],
+  },
+  {
+    title: "Bases de datos",
+    description: "Modelado, consultas y persistencia de datos relacionales.",
+    items: ["PostgreSQL", "MySQL", "Sequelize ORM"],
+  },
+  {
+    title: "Herramientas y deploy",
+    description: "Control de versiones, pruebas, documentación y publicación online.",
+    items: ["Git", "GitHub", "Postman", "Swagger", "Vercel", "Render", "Neon", "Jira"],
+  },
+];
+
 function App() {
   return (
     <div className="app">
@@ -285,41 +308,28 @@ function App() {
         </section>
 
         <section className="section" id="tecnologias">
-          <div className="section-header">
-            <p className="section-tag">Stack</p>
-            <h2>Tecnologías y herramientas</h2>
-          </div>
+  <div className="section-header">
+    <p className="section-tag">Stack</p>
+    <h2>Tecnologías y herramientas</h2>
+  </div>
 
-          <div className="skills-grid">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Vite</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>PostgreSQL</span>
-            <span>MySQL</span>
-            <span>PHP</span>
-            <span>Python</span>
-            <span>Laravel básico</span>
-            <span>Sequelize ORM</span>
-            <span>APIs REST</span>
-            <span>JWT Auth</span>
-            <span>bcrypt</span>
-            <span>Postman</span>
-            <span>Swagger</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>Vercel</span>
-            <span>Render</span>
-            <span>Neon</span>
-            <span>Jira</span>
-            <span>pg / node-postgres</span>
-            <span>Dotenv</span>
-            <span>Axios</span>
-          </div>
-        </section>
+  <div className="skills-categories">
+    {skillCategories.map((category) => (
+      <article className="skill-category-card" key={category.title}>
+        <div className="skill-category-header">
+          <h3>{category.title}</h3>
+          <p>{category.description}</p>
+        </div>
+
+        <div className="skill-tags">
+          {category.items.map((item) => (
+            <span key={item}>{item}</span>
+          ))}
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
 
         <section className="section languages-section">
           <div className="section-header">
